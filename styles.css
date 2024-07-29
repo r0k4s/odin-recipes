@@ -2,14 +2,19 @@ body {
     background-color: #F8EDED;
     color: #B43F3F;
     width: 600px;
-    padding: 16px center;
     margin: auto;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
 }
 
-h1 {
+.heading {
     color: #173B45;
     padding-left: 32px;
+    font-size: 32px;
+    font-weight: 800;
 }
 a {
     color: #FF8225;
@@ -19,9 +24,5 @@ a {
 }
 ul {
     list-style-type: circle;;
-    padding: 16px 32px;
 }
-img {
-    width: 300px;
-    height: auto;
-}
+
