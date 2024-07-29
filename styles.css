@@ -13,8 +13,12 @@ h1 {
 }
 a {
     color: #FF8225;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
 }
 ul {
+    list-style-type: circle;;
     padding: 16px 32px;
 }
 img {
