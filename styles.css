@@ -35,12 +35,14 @@ body {
 
 .header-logo {
     font-size: 42px;
-    font-weight: 800; 
+    font-weight: 800;
+     
 }
 
 a { 
     text-decoration: none;
     color: inherit;
+    text-transform: uppercase;
 }
 
 .footer {
@@ -56,7 +58,7 @@ a {
     background-color: #708871;
     border-radius: 25px;
     color: #BEC6A0;
-    padding: 30px;
+    padding: 20px;
     
 }
 
@@ -67,7 +69,7 @@ a {
     border-radius: 25px;
     display: flex;
     flex: 1;
-    padding: 30px;
+    padding: 20px;
 }
 
 .recipes-list {
@@ -88,7 +90,10 @@ a {
 img {
     width: 175px; 
     height: 175px; 
-    border-radius: 50%; 
+    border-radius: 10%; 
     border: solid 0px;
     box-shadow: 3px 3px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
 }
