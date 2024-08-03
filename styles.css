@@ -1,28 +1,29 @@
 body {
-    background-color: #F8EDED;
-    color: #B43F3F;
-    width: 600px;
-    margin: auto;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+/* #264653 2A9D8F E9C46A F4A261 E76F51*/
+.header-bg, .footer-bg {
+    background-color: #264653;
+    color: #E9C46A;
 }
 
-.heading {
-    color: #173B45;
-    padding-left: 32px;
-    font-size: 32px;
-    font-weight: 800;
-}
-a {
-    color: #FF8225;
-    text-decoration: none;
-    font-size: large;
-    font-weight: 700;
-}
-ul {
-    list-style-type: circle;;
+.text-container-bg {
+    background-color: #2A9D8F;
 }
 
+.list-container-bg {
+    background-color: #E9C46A;
+}
+
+.header {
+    height: 100px;
+}
+
+.footer {
+    height: 50px;;
+}
