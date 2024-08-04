@@ -16,7 +16,7 @@ body {
     justify-content: center;
 }
 
-    .container-bg {
+.container-bg {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -62,6 +62,22 @@ a {
     
 }
 
+.text-container-1 {
+    height: auto;
+    max-width: 850px;
+    background-color: #708871;
+    border-radius: 25px;
+    color: #BEC6A0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    
+}
+.container-1-text {
+    padding-top: 20px;
+}
+
 .list-container {
     background-color: #FEF3E2;
     color: #708871;
@@ -77,6 +93,7 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 30px;
+    align-content: flex-start;
 }
 
 .recipe-box {
@@ -85,6 +102,11 @@ a {
     align-items: center;
     text-align: center;
     font-weight: 500;
+}
+.container-ingredients {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
 }
 
 img {
